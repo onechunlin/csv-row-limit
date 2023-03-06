@@ -1,6 +1,6 @@
 {
   "name": "csv-row-limit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "轻量的 CSV 行数限制库 / Lightweight CSV row limit library",
   "main": "dist/index.js",
   "scripts": {
