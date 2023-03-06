@@ -6,7 +6,7 @@
   "scripts": {
     "test-server": "serve ./test/data",
     "test": "node ./script/check-os-server.mjs && jest",
-    "build": "tsc",
+    "build": "rm -rf dist && tsc",
     "prepublish": "yarn test && yarn build",
     "benchmark": "node ./test/benchmark.mjs"
   },

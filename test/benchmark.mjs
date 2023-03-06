@@ -98,6 +98,6 @@ suite
       "csv-row-limit limit 10w from 100w lines".length
     );
     const hz = String(event.target.hz.toFixed(0)).padStart(10);
-    process.stdout.write(`${name}${pico.bold(hz)}${pico.dim(" ops/sec")}\n`);
+    process.stdout.write(`${name}${pico.yellow(hz)}${pico.dim(" ops/sec")}\n`);
   })
   .run({ async: true });
