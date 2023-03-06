@@ -1,12 +1,14 @@
 {
   "name": "csv-row-limit",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "轻量的 CSV 行数限制库 / Lightweight CSV row limit library",
   "main": "dist/index.js",
   "scripts": {
     "test-server": "serve ./test/data",
     "test": "node ./script/check-os-server.mjs && jest",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "yarn test && yarn build",
+    "benchmark": "node ./test/benchmark.mjs"
   },
   "repository": {
     "type": "git",
@@ -16,7 +18,10 @@
     "dist"
   ],
   "keywords": [
-    "csv"
+    "csv",
+    "limit",
+    "http",
+    "row"
   ],
   "author": "onechunlin",
   "license": "MIT",
@@ -29,6 +34,7 @@
     "@types/node": "^18.14.6",
     "benchmark": "^2.1.4",
     "chalk": "^5.2.0",
+    "csv-row-limit": "^1.0.0-beta",
     "fast-csv": "^4.3.6",
     "jest": "^29.4.3",
     "picocolors": "^1.0.0",
