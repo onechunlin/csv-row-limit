@@ -29,7 +29,7 @@ npm install csv-row-limit
 使用非常简单：
 
 ```js
-import csvRowLimit from "csv-row-limit";
+import { csvRowLimit } from "csv-row-limit";
 
 async function yourFunction() {
   const rows = await csvRowLimit({
