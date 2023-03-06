@@ -1,4 +1,4 @@
-import csvRowLimit from "../index";
+import { csvRowLimit } from "../index";
 import path from "path";
 
 describe("limit filepath csv", () => {

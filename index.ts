@@ -1,3 +1,1 @@
-import { csvRowLimit } from "./lib";
-
-export default csvRowLimit;
+export { csvRowLimit, CsvRowLimitParams } from "./lib";
