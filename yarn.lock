@@ -1103,9 +1103,9 @@ cross-spawn@^7.0.3:
     which "^2.0.1"
 
 csv-row-limit@^1.0.0-beta:
-  version "1.0.0-beta"
-  resolved "https://registry.npmjs.org/csv-row-limit/-/csv-row-limit-1.0.0-beta.tgz#6e0e1e0308d68ef5a2e6975174e6713721a04e05"
-  integrity sha512-Qp2Crz2vFo7jkIQSII2HySA/DwCoMJAXyl0hipsCNx2G4MFYzxORQG/pEfj9knlvYIfymdFnF/0ZaAMoobfUbQ==
+  version "1.0.1"
+  resolved "https://registry.npmmirror.com/csv-row-limit/-/csv-row-limit-1.0.1.tgz#670e72cae1b9f2118d5281b709a212227c760e16"
+  integrity sha512-sFcCTlddpuf15+sUR9k/MvGflr68PL10BBf0iLx/rA7v9LjFeRiXTDZy6izzfls7HhhrvP+enUIzadyPkKdGTw==
 
 debug@2.6.9:
   version "2.6.9"
@@ -1152,9 +1152,9 @@ eastasianwidth@^0.2.0:
   integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
 
 electron-to-chromium@^1.4.284:
-  version "1.4.320"
-  resolved "https://registry.npmmirror.com/electron-to-chromium/-/electron-to-chromium-1.4.320.tgz#4d83a90ff74f93939c5413c2ac5a16c696600632"
-  integrity sha512-h70iRscrNluMZPVICXYl5SSB+rBKo22XfuIS1ER0OQxQZpKTnFpuS6coj7wY9M/3trv7OR88rRMOlKmRvDty7Q==
+  version "1.4.321"
+  resolved "https://registry.npmmirror.com/electron-to-chromium/-/electron-to-chromium-1.4.321.tgz#48b513fbeae39d431826bbafa2acb88309d8be55"
+  integrity sha512-ERuAqNq7YknVY3+47VbB+Q92kWH7O7sX3mkZINqZtsGJMQFb0dj71d5U3PRTihX03qt2NWIfZic2CCcGXOHJ7A==
 
 emittery@^0.13.1:
   version "0.13.1"
@@ -2284,9 +2284,9 @@ resolve-from@^5.0.0:
   integrity sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==
 
 resolve.exports@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npmmirror.com/resolve.exports/-/resolve.exports-2.0.0.tgz#c1a0028c2d166ec2fbf7d0644584927e76e7400e"
-  integrity sha512-6K/gDlqgQscOlg9fSRpWstA8sYe8rbELsSTNpx+3kTrsVCzvSl0zIvRErM7fdl9ERWDsKnrLnwB+Ne89918XOg==
+  version "2.0.1"
+  resolved "https://registry.npmmirror.com/resolve.exports/-/resolve.exports-2.0.1.tgz#cee884cd4e3f355660e501fa3276b27d7ffe5a20"
+  integrity sha512-OEJWVeimw8mgQuj3HfkNl4KqRevH7lzeQNaWRPfx0PPse7Jk6ozcsG4FKVgtzDsC1KUF+YlTHh17NcgHOPykLw==
 
 resolve@^1.20.0:
   version "1.22.1"
